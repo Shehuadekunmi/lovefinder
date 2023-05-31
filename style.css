@@ -46,11 +46,18 @@ font-size: 16px;
     }
 }
 
-/* form section */
+                       /* form section */
 
+                       
+.fo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
 .form{
+
     width: 450px;
-height: 651px;
+height: 680px;
 border: 1px solid rgba(124, 11, 11, 0.4);
 }
 #aro{
@@ -75,20 +82,21 @@ font-size: 13px;
 line-height: 20px;
 /* identical to box height */
 color: #7C0B0B;
-margin-top: -30px;
+margin-top: -5px;
+}
+#aro h2{
+    margin-top: -20px;
 }
 .fill{
-    margin-top: 40px;
-    width: 80%;
-    margin-left: 30px;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 10px;
 }
 .fill button{
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     gap: 10px;
-    margin-top: -130px;
+    margin-top: 20px;
     margin-left: -60px;
     position: absolute;
     width: 96px;
@@ -114,22 +122,19 @@ margin-top: -30px;
 select{
     color: #7C0B0B;
     opacity: .6;   
+} @media (max-width:500px){
+    .fo{
+        display: block;
+        justify-content: space-around;
+        margin: 10px;
+    }
 }
 
-.m img{
-    width: 100%;
-    height: 90%;
- padding-top: 30px;
- padding-right: 40px;
-} 
+             /* About us */
 
-/* About us */
 .about .A{
 /* width: 146px; */
 height: 37px;
-/* left: calc(50% - 146px/2);
-top: 1757px; */
-
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -157,7 +162,7 @@ line-height: 20px;
 text-align: center;
 }
 
-/* how it work */
+              /* how it work */
 .how{
     /* width: 213px; */
     height: 37px;
@@ -169,14 +174,24 @@ text-align: center;
     font-weight: 700;
     font-size: 30px;
     line-height: 37px;
-    /* identical to box height */
     color: #000000;
-    
 }
 
 #rep {
     margin-right: -20px;
     margin-top:-20px ;
+}#ps p{
+    width: 292px;
+    height: 120px;
+    left: 574px;
+    top: 2300px;
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #000000;
 }
 .im img{
     height:50% ;
@@ -206,9 +221,12 @@ text-align: center;
     .lore{
         font-size: 20px;
     }
+    #ps{
+  margin: 10px;
+    }
 } 
 
-/* Most Popular Members */
+                 /* Most Popular Members */
 
 .member{
     padding-top: 30px;
@@ -216,7 +234,7 @@ text-align: center;
 .mo{
     text-align: center;
     justify-content: center;
-    width: 365px; 
+    /* width: 365px;  */
     height: 37px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -224,7 +242,7 @@ text-align: center;
     font-size: 30px;
     line-height: 37px;
     color: #000000;
-    margin-left: 500px;
+    margin-left: 00px;
 }
     
 .most1 .one{
@@ -235,12 +253,11 @@ border-radius: 30px;
 }
 
 .most1 img{
-width: 50%;
-height: 50%;
-margin-top: -20px;
+width: 40%;
+height: 40%;
+margin-top: 10px;
 border: none;
 border-radius: 30px;
-margin-left: 30px;
 }
 .most1 p{
     /* width: 145px; */
@@ -265,6 +282,7 @@ font-size: 15px;
 line-height: 15px;
 color: #FFFFFF;
 align-items: center;
+padding-left: 40px;
 }
 
 .most2 .one{
@@ -275,12 +293,11 @@ border-radius: 30px;
 }
 
 .most2 img{
-    width: 50%;
-    height: 50%;
-    margin-top: -20px;
+    width: 40%;
+    height: 40%;
+    margin-top: 10px;
     border: none;
     border-radius: 30px;
-    margin-left: 30px;
     }
 
     .most2 p{
@@ -306,6 +323,7 @@ border-radius: 30px;
     line-height: 15px;
     color: #FFFFFF;
     align-items: center;
+    padding-left: 40px;
     }
 .btnn button{
     margin-top:30px;
@@ -324,6 +342,11 @@ border-radius: 100px;
 }
 
 @media  (max-width:500px){
+
+    .mo{
+        font-size: 10px;
+        padding-left: -500px;
+    }
     .most1 .one{
         width: 90vw;
         height: 40vh;
@@ -335,6 +358,7 @@ border-radius: 100px;
     }
     .most1 h3{
         font-size: 20px;
+    margin-left: 60px;
     }
 
     .most2 .one{
@@ -348,19 +372,12 @@ border-radius: 100px;
     }
     .most2 h3{
         font-size: 20px;
+        margin-left: 60px;
     }
 }
 
                    /* Testmonials */
-    .te h1{
-        /* width: 199px; */
-height: 37px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 37px;
-    }   
+   
     .te p{
         /* width: 124px; */
 height: 20px;
@@ -369,16 +386,15 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 20px;
-/* identical to box height */
 color: #7C0B0B;
 margin-left: 5px; 
-margin-top: -20px;
+margin-top: -10px;
     }   
     .tes img{
         width: 40%;
-        height: 30%;
+        height: 40%;
         padding-left:30px ;
-        margin-top: 20px;
+        margin-top: 0px;
     }         
     .tes1{
         width: 366px;
@@ -394,16 +410,27 @@ border-radius: 30px;
         display: flex;
     }
     #paul p{
-     margin-top: 40px;
-     margin-left: -50px;
+     margin-top: 60px;
+     margin-left: -20px;
+     padding-right: 10px;
     }
     @media  (max-width:500px){
+        
+        .tes{
+            width: 100%;
+            padding-left: 15px;
+        }
       .tes1{
      margin: 5px;
       } 
       .tes1 p{
         font-size:18px;
       } 
+      .tes img{
+        width: 40%;
+        height: 40%;
+        padding-left:30px ;
+    }         
     }
 
                          /* Subscribe To Our Newsletter */
@@ -420,7 +447,7 @@ color: #000000;
 padding-left: 50px;
     }  
     .sub p{
-        width: 668px;
+        width:700px;
 height: 20px;
 font-family: 'Montserrat';
 font-style: normal;
@@ -428,9 +455,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 color: #7C0B0B;
-margin-top: -35px;
+margin-top: -5px;
 margin-bottom: 70px;
     }      
+    #your{
+        display: flex;
+    }
     .sub input{
         width: 560px;
 height: 54px;
@@ -456,6 +486,7 @@ height: 54px;
 background: #7C0B0B;
 border-radius: 30px;
 margin-right: 70px;
+margin-left: -150px;
     }
 
     @media (max-width:500px){
@@ -465,6 +496,14 @@ margin-right: 70px;
         .sub p{
             width: 100%;
             font-size: 16px;
+        }
+        .sub input{
+            width: 200vw;
+            margin-left: 50px;
+        }
+        .sub button{
+            margin-left: -50px;
+            font-size: 25px;
         }
     }
 
